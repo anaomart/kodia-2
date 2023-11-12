@@ -1,0 +1,80 @@
+.hero-img-index2 {
+    /* background-image: url("./assets/bmw-i7.avif"); */
+    background-image: url("./assets/mq5-original-aspect.avif");
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.8s;
+}
+
+.section2-index2 {
+
+    background-color: black;
+
+
+}
+
+.section2-index2 h2 {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 100px;
+
+}
+
+.hero-index2 {
+    padding-top: 150px;
+    background-color: black;
+
+}
+
+
+
+.component-1 {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #dad6d6;
+}
+
+.content {
+    flex: 1;
+    /* margin: 20px auto; */
+    max-width: 500px;
+    padding: 30px;
+}
+
+.content h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.content p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+
+}
+
+.component-1 .img {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+    position: relative;
+
+}
+
+.component-1 .img img {
+    width: 350px;
+    position: absolute;
+    top: -40px;
+    top: -200px;
+}
+
+/*  */
