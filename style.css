@@ -111,6 +111,7 @@ nav {
   text-align: center;
   margin: auto;
   width: 100%;
+  z-index: 100;
 }
 
 .parallax-element {
@@ -235,9 +236,11 @@ nav {
 .shadow {
   position: absolute;
   bottom: 0;
-  background: linear-gradient(to top,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
 
   /* Other styles for the element */
   width: 100%;
@@ -248,7 +251,11 @@ nav {
 .shadow-top {
   position: absolute;
   top: 0px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   width: 100%;
   height: 400px;
   z-index: 3;
@@ -510,7 +517,6 @@ button:hover {
     margin: 0 40px;
     top: 2%;
     gap: 0;
-
   }
 
   .grand .text h2 {
@@ -522,8 +528,6 @@ button:hover {
   .grand .text p {
     margin-top: 35px;
     font-size: 21px;
-
-
   }
 
   .grand button {
@@ -532,17 +536,9 @@ button:hover {
     width: 200px;
     font-size: 18px;
   }
-
 }
 
-
 /* end end section */
-
-
-
-
-
-
 
 /* .animated-text * {
   opacity: 0;
@@ -568,7 +564,6 @@ button:hover {
   opacity: 1;
 } */
 
-
 /* show text */
 .a,
 .b,
@@ -581,13 +576,11 @@ button:hover {
 
 /*end show text */
 
-
 /* social media section */
 
 .socialMedia {
   text-align: center;
   margin: 0 10%;
-
 }
 
 .socialMedia h2 {
@@ -596,7 +589,6 @@ button:hover {
   font-family: "Playfair Display", serif;
   font-size: 44px;
   font-weight: 200;
-
 }
 
 .socialMedia .links ul {
@@ -606,7 +598,6 @@ button:hover {
   justify-content: space-around;
   margin-bottom: 100px;
   font-size: 34px;
-
 }
 
 .socialMedia .links ul li i {
@@ -615,11 +606,11 @@ button:hover {
 
 .fa-facebook:hover {
   /* background: linear-gradient(to top, #0165E1, #17A9FD); */
-  color: #0165E1;
+  color: #0165e1;
 }
 
 .fa-twitter:hover {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 
 .fa-instagram:hover {
@@ -635,15 +626,15 @@ button:hover {
 
 .fa-tiktok:hover {
   color: #010101;
-  filter: drop-shadow(3px 2px 1px #EE1D52);
+  filter: drop-shadow(3px 2px 1px #ee1d52);
 }
 
 .fa-tiktok:hover::before {
-  filter: drop-shadow(-3px -2px 1px #69C9D0);
+  filter: drop-shadow(-3px -2px 1px #69c9d0);
 }
 
 .fa-youtube:hover {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 /*end social media section */
@@ -673,7 +664,6 @@ footer {
   height: 70px;
   width: 100%;
   padding: 25px 45px;
-
 }
 
 /* .ul-nav::after {
@@ -688,7 +678,6 @@ footer {
 
 .ul-nav li a {
   color: var(--gray);
-
 }
 
 .ul-nav li a:hover {
@@ -718,15 +707,5 @@ footer {
 }
 
 /* end footer */
-
-
-
-
-
-
-
-
-
-
 
 /*  */
