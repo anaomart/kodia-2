@@ -11,6 +11,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  outline: 0;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -o-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
 }
 
 ul,
